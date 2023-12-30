@@ -27,14 +27,14 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/WCGKING/BRANDEDXSHIZUKA",
+    "https://github.com/Zexxy69/BRANDEDXSHIZUKA",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
-GITHUB_REPO = getenv("GITHUB_REPO", "https://github.com/WCGKING/BRANDEDXSHIZUKA")
+GITHUB_REPO = getenv("GITHUB_REPO", "https://github.com/Zexxy69/BRANDEDXSHIZUKA")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/BRANDRD_BOT")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/BRANDED_WORLD")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/stylox_chat")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/stylox_chat")
 
 
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "True")
@@ -80,11 +80,11 @@ clean = {}
 autoclean = []
 
 
-START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/5dbc36ec3ea5a6e04929b.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/a1a4fe39a32778770bef7.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://te.legra.ph/file/0c7550e2120aca5bc0e2b.jpg",
+    "https://te.legra.ph/file/f72b244cc123526589831.jpg",
 )
 
 PLAYLIST_IMG_URL = "https://te.legra.ph/file/6054be6dbfc0f654db62b.jpg"
